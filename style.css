@@ -1,0 +1,77 @@
+body {
+	margin: 30px;
+}
+
+/*Cards*/
+.fellows
+{
+  opacity : 0.5;
+  height : 280px;
+}
+
+.fellows:hover
+{
+  opacity:1;
+}
+
+.fellows ~ .p_personnage
+{
+  font-family : arial;
+  position : absolute;
+  margin-top: 10pt;
+  margin-left: 50pt;
+  font-size : 16pt;
+  background-color : white;
+  height : 50pt;
+  width : 120pt;
+  border-radius : 15px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.fellows:hover ~ .p_personnage
+{
+  visibility: hidden;
+}
+
+#name h1
+{
+  position : absolute;
+  margin-top: -100pt;
+  margin-left: 50pt;
+}
+
+#name .card:hover h1
+{
+  position : absolute;
+  margin-top: -30pt;
+  margin-left: 70pt;
+  font-size: 20pt;
+}
+
+.coins
+{
+  font-family : arial;
+  color : #FF4000;
+}
+
+.likefb
+{
+  height: 1rem;
+}
+
+.gollum
+{
+  height: 150px;
+  width: 150px;
+  border-radius: 150px 150px 150px 150px;
+  position: relative;
+  margin-right: 15px;
+}
+
+
+/*Tableau*/
+thead, tbody, th, td {
+	border: 3px solid black;
+	text-align: center;
+}
